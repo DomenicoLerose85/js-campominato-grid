@@ -66,3 +66,11 @@ body {
     height: calc(100% - 90px);
 }
 
+.cells-container{
+    position: absolute;
+    top: 50%;
+    left:25%;
+    width: 50%;
+    height:50%;
+    border: 1px solid black;
+}
