@@ -72,24 +72,34 @@ body {
 
 #main{
     background-color: rgb(95, 226, 226);
-    height: calc(100% - 90px);
+    /* height: calc(100% - 140px); */
+    height: 700px;
+    overflow-y: auto;
+}
+
+.main_title{
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top:50%;
+    left: 20%;
 }
 
 .cells-container{
     position: absolute;
     top: 35%;
     left:25%;
-    width: 50%;
-    height:50%;
+    width: 500px;
+    height:500px;
     border: 1px solid black;
-}
+}  
 
 /* /main */
 
 /* footer */
 #footer{
     width: 100%;
-    height: 50px;
+    height: 50px; 
     background-color: white;
 }
 
